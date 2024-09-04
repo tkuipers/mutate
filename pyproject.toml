@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "mutate"
+version = "0.1.0"
+description = "Mutate Source Files"
+authors = ["Tyler Kuipers <tkuipers123@gmail.com>"]
+license = "GNUv3"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+cleo = "^2.1.0"
+tree-sitter = "^0.23.0"
+tree-sitter-python = "^0.23.2"
+tree-sitter-go = "^0.23.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
